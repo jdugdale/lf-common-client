@@ -10,7 +10,7 @@ describe('Store suite', () => {
 
     describe('on create Store object', () => {
         it('should use supplied params', async() => {
-            let s = new Store(process.env.API_KEY, process.env.CLIENT_ID);
+            let s = new Store(process.env.LF_URL, process.env.LF_API_KEY, process.env.LF_CLIENT_ID);
             let val = await s.getJSON('test20');
             expect(typeof val).toBe('object');
         })
