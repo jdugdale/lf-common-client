@@ -1,0 +1,17 @@
+{
+    "name": "lf-common-client",
+    "version": "1.0.0",
+    "description": "NodeJS client library for lf-common set of APIs.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "dotenv": "^8.0.0",
+        "jasmine": "^3.4.0",
+        "request": "^2.88.0"
+    }
+}
